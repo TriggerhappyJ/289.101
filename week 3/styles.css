@@ -12,7 +12,8 @@
     border-width: 10px;
     border-color: blue;
     padding-left: 50px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #box2 {

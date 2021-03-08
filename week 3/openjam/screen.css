@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+body {
+    background-color: #82DDB5;
+    background-image: url(img/illustration.gif), url(img/texture.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: center 280px, left top;
+    background-size: 800px, auto;
+    font-family: 'quicksand', sans-serif;
+    margin: 0px;
+}
+
+#nav {
+    background-color: #67BB99;
+    padding: 20px 0px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+    border-bottom: 2px dashed #487;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#logo {
+    max-width: 360px;
+    width: 100%;
+}
+
+#description, #date {
+    max-width: 220px;
+    width: 100%;
+}
+
+.register_btn {
+    background-color: #e43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    background-color: rgba(200,240,220,0.9);
+    margin-top: 360px;
+}
+
+#what p {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#what h1 {
+    text-align: center;
+    padding: 25px 0px;
+    color: #67BB99;
+}
+
+#what h2 {
+    
+}
