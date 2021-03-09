@@ -52,21 +52,123 @@ body {
 #what {
     background-color: rgba(200,240,220,0.9);
     margin-top: 360px;
+    padding-bottom: 30px;
 }
 
-#what p {
+#what p, #why p {
     width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: #347788;
+    line-height: 1.5em
 }
 
-#what h1 {
+#what h1, #why h1 {
     text-align: center;
-    padding: 25px 0px;
-    color: #67BB99;
+    padding: 15px 0px 15px 0px;
+    color: #347788;
+    font-size: 35px;
+}
+
+#what h1+p {
+    font-size: 20px;
 }
 
 #what h2 {
-    
+    text-align: center;
+    color: #347788;
+    font-weight: bold;
+}
+
+#sponsor_logos {
+    text-align: center;
+    word-spacing: 2em;
+}
+
+#sponsor_logos img{
+    max-width: 240px;
+}
+
+#why {
+    background-color: #B6EAD3;
+    padding: 15px 0px; 
+}
+
+#where {
+    padding: 15px 0px;
+    height: 500px;
+    background-image: url(img/map.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #BB4488;
+}
+
+#where h1 {
+    text-align: center;
+}
+
+#where p {
+    font-weight: bold;
+    text-align: right;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#when {
+    padding: 15px 0px;
+    color: white;
+    background-image: url(img/wires.png);
+    background-repeat: round;
+    background-position: right;
+    background-color: #439998;
+}
+
+#when h1, #when h2, #when h3 {
+    text-align: center;
+}
+
+#when h3 {
+    border-top: 2px dashed #fff;
+    padding-top: 20px;
+}
+
+#when ul {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#who {
+    padding: 15px 0px;
+    background-color: #fff;
+    color: #347788;
+}
+
+#who h1 {
+    text-align: center;
+}
+
+#who h1+p {
+    font-size: 20px;
+}
+
+#who p {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    padding: 25px 0px;
+    text-align: center;
+    word-spacing: 1em;  
+}
+
+#footer img{
+    max-width: 50px;
 }
